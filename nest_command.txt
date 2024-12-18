@@ -1,0 +1,14 @@
+npm i @nestjs/mapped-types -D // command for making extended types example mention in create-user.dto.ts file...
+npm i class-validator class-transformer // command use for add validation use in create-user.dto.ts actually this is used for applying validation like @IsNotWmpty, @IsEmail etc..
+npm i class-validator class-transformer @nestjs/mapped-types // command for install all the above packages
+
+nest g resource employee // this command is used for making rest api folder automatically for example i give name employee all employee information create in employee folder
+
+============================= Orm Commands ===========================================
+npm i prisma -D // command for install prisma dependecy
+npx prisma init // command that make prisma folder
+npx prisma migrate dev // command for migrate prisma schema to database
+npx prisma generate // command for update the model or database if we update some thing so we run this command that is updated our db...
+nest g module database // command for making database module in src folder....
+npx prisma db push // command for push prisma schema to database
+
