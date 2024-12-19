@@ -3,7 +3,8 @@ npm i class-validator class-transformer // command use for add validation use in
 npm i class-validator class-transformer @nestjs/mapped-types // command for install all the above packages
 
 nest g resource employee // this command is used for making rest api folder automatically for example i give name employee all employee information create in employee folder
-
+nest g module my-logger // this command is used for creating module.
+$ nest g service my-logger
 ============================= Orm Commands ===========================================
 npm i prisma -D // command for install prisma dependecy
 npx prisma init // command that make prisma folder
